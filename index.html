@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Выводим заголовок -->
+    <title>Picadu - главная</title>
+    <!-- Подключаем normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Подключаем стили -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Создаем шапку сайта -->
+    <header class="header">
+        <div class="header-wrapper">
+            <a href="/" class="header-logo">
+                <img src="img/logo.svg" class="header-logo-image" alt="logo: Picadu">
+            </a>
+            <nav class="header-nav">
+                <ul class="header-menu">
+                    <li class="header-menu-item"><a href="#" class="header-menu-link">Свежее</a></li>
+                    <li class="header-menu-item"><a href="#" class="header-menu-link">Лучшее</a></li>
+                    <li class="header-menu-item"><a href="#" class="header-menu-link">Горячее</a></li>
+                    <li class="header-menu-item"><a href="#" class="header-menu-link">Подписки</a></li>
+                </ul>
+            </nav>
+            <!-- /.header-nav -->
+            <div class="input-group search">
+                <input type="search" class="search-input" placeholder="Поиск по сайту">
+                <button class="search-button">
+                    <img src="img/search.svg" alt="icon: search" class="search-icon">
+                 </button>
+            </div>
+        <!-- /.input-group -->
+        <a href="#" class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        </div>
+        <!-- /.header-wrapper -->
+    </header>
+
+    <div class="content">
+        <main class="posts">
+            <section class="post">
+                <div class="post-body">
+                    <h2 class="post-title">Лайфхаки для дома</h2>
+                    <p class="post-text">Лайфхаки необходимы для улучшения и упрощения жизни. Существует множество подобных советов. Некоторые из них можно применять для интерьера или дома. Это позволит добавить немного оригинальности и комфорта. Необходимо разобраться, какие полезные вещи можно перенять и внедрить в собственную жизнь.</p>
+                    <p class="post-text">Описанные ниже рекомендации станут настоящими помощниками в бытовых условиях. Обычные вещи можно использовать весьма оригинально и удобно. Среди лайфхаков для дома можно отметить следующие:</p>
+                    <p class="post-text">1. Если закрепить на молотке маленький магнит, тогда гвозди всегда будут находиться рядом.</p>
+                    <p class="post-text">2. Взяв несколько обычных бутылок и наполнив их водой, получится организовать отличную систему полива для комнатных растений.</p>
+                    <p class="post-text">3. Если нужно что-то покрасить для облегчения процесса, на кисть надевают крышку от обычного пластикового стаканчика. Это способствует защите рук от брызг, появляющихся от краски.</p>
+                    <p class="post-text">4. Щипцы для мяса могут сделать значительно легче процедуру получения сока из цитрусовых.</p>
+                    <p class="post-text">5. Ключи от банок из алюминия можно использовать для хранения вещей. Верхним отверстием изделие закрепляется на одной вешалке, в нижнюю часть продевают вторые плечики. Это позволит расширить возможности хранения даже в маленьком шкафу.</p>
+                    <p class="post-text">6. Чтобы удобно и эффективно хранить джинсы подойдут крючки для душа. Они экономят пространство, освобождая больше места, аккуратно вмещают вещи.</p>
+                    <p class="post-text">7. Если дома есть старая теннисная ракетка, которая уже не используется, можно соорудить из нее оригинальный органайзер для хранения мелких украшений.</p>
+                    <p class="post-text">8. Существуют специальные бревна из пенопласта для бассейна. Если закрепить их на стенах гаража это позволит избежать случайных, неприятных повреждений машины.</p>
+                    <p class="post-text">9. Для многих становится настоящей проблемой распутывание проводов, гирлянд. Если хранить их на вешалках можно избежать спутывания, что позволит не тратить много времени, пытаясь восстановить привычный вид изделий.</p>
+                    <p class="post-text">10. Если негде хранить целлофановые пакеты, рекомендуется поместить их в картонные коробки от носовых платочков. </p>
+                    <div class="tags">
+                        <a href="#" class="tag">#лайфхак</a>
+                        <a href="#" class="tag">#дом</a>
+                        <a href="#" class="tag">#удобство</a>
+                        <a href="#" class="tag">#handmade</a>
+                        <a href="#" class="tag">#быт</a>
+                        <a href="#" class="tag">#комфорт</a>
+                    </div>
+                    <!-- /.tags -->
+                </div>
+                <!-- /.post-body -->
+                <div class="post-footer">
+                    <div class="post-buttons">
+                        <button class="post-button likes">
+                            <svg width="19" height="20" class="icon icon-like">
+                                <use xlink:href="img/icons.svg#like"></use>
+                            </svg>
+                            <span class="likes-counter">10</span>
+                        </button>
+                        <button class="post-button comments">
+                        <svg width="21" height="21" class="icon icon-comment">
+                            <use xlink:href="img/icons.svg#comments"></use>
+                        </svg>
+                            <span class="comments-counter">5</span>
+                        </button>
+                        <button class="post-button save">
+                            <svg width="19" height="19" class="icon icon-save">
+                                <use xlink:href="img/icons.svg#save"></use>
+                            </svg>
+                        </button>
+                        <button class="post-button share">
+                            <svg width="17" height="19" class="icon icon-share">
+                                <use xlink:href="img/icons.svg#share"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <!-- /.post-buttons -->
+                    <div class="post-author">
+                        <div class="author-about">
+                            <a href="#" class="author-username">marybrown</a>
+                            <span class="post-time">5 минут назад</span>
+                        </div>
+                        <a href="" class="author-link"><img src="img/avatar2.jpg" alt="avatar" class="author-avatar"></a>
+                    </div>
+                    <!-- /.post-author -->
+                </div>
+                <!-- /.post-footer -->
+            </section>
+            <section class="post">
+                <div class="post-body">
+                    <h2 class="post-title">Новый клип Billie Eilish</h2>
+                    <p class="post-text">Песня Билли Айлиш к новой серии бондианы была опубликована еще в феврале — релиз фильма тогда планировался на весну. Что было дальше — все знают: выход «Не время умирать» всё откладывался и сопутствующие материалы переезжали вместе с ним. И вот когда наконец картина вроде закрепилась в графике кинопроката на 19 ноября, студия решила подогреть ожидания клипом на композицию Билли. Правда, на днях стало известно, что премьера блокбастера снова перенесена — уже на апрель, но это не мешает оценить музыкальное видео. </p>
+                    <p class="post-text">18-летняя суперзвезда, снятая в монохроме, поет здесь перед ретромикрофоном, и съемки эти смонтированы с моментами из фильма. Фактически это такой развернутый трейлер — ладно скроенный, но в режиссерском плане скучный. Однако что в нем действительно интересно, так это образ певицы. Билли Айлиш всегда акцентировала свою подростковую угловатость, неформальность, даже асексуальность. Никогда она не пыталась быть перед камерой обворожительной и соблазнительной. И вот впервые мы видим ее по-настоящему женственной, лиричной. Наконец, красивой.  </p>
+                    <div class="tags">
+                        <a href="#" class="tag">#музыка</a>
+                        <a href="#" class="tag">#клип</a>
+                        <a href="#" class="tag">#billieilish</a>
+                        <a href="#" class="tag">#лирика</a>
+                    </div>
+                    <!-- /.tags -->
+                </div>
+                <!-- /.post-body -->
+                <div class="post-footer">
+                    <div class="post-buttons">
+                        <button class="post-button likes">
+                            <svg width="19" height="20" class="icon icon-like">
+                                <use xlink:href="img/icons.svg#like"></use>
+                            </svg>
+                            <span class="likes-counter">18</span>
+                        </button>
+                        <button class="post-button comments">
+                        <svg width="21" height="21" class="icon icon-comment">
+                            <use xlink:href="img/icons.svg#comments"></use>
+                        </svg>
+                            <span class="comments-counter">4</span>
+                        </button>
+                        <button class="post-button save">
+                            <svg width="19" height="19" class="icon icon-save">
+                                <use xlink:href="img/icons.svg#save"></use>
+                            </svg>
+                        </button>
+                        <button class="post-button share">
+                            <svg width="17" height="19" class="icon icon-share">
+                                <use xlink:href="img/icons.svg#share"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <!-- /.post-buttons -->
+                    <div class="post-author">
+                        <div class="author-about">
+                            <a href="#" class="author-username">robertgreen</a>
+                            <span class="post-time">20 минут назад</span>
+                        </div>
+                        <a href="" class="author-link"><img src="img/avatar3.jpg" alt="avatar" class="author-avatar"></a>
+                    </div>
+                    <!-- /.post-author -->
+                </div>
+                <!-- /.post-footer -->
+            </section>
+            <section class="post">
+                <div class="post-body">
+                    <h2 class="post-title">Lorem ipsum</h2>
+                    <p class="post-text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Грамматики города, то несколько большого одна если наш текстов рыбного толку вопрос живет. Вскоре то lorem живет которой коварных языком точках сбить, страну жаренные текстами, использовало имени подпоясал. Рыбного заголовок если он своих подпоясал свой встретил использовало предложения путь текстов по всей пунктуация, большой маленький запятых! Текстов лучше языкового, свое знаках, буквоград языком свою она рот, речью там текста по всей. Вершину они выйти предупреждал раз жаренные, до рыбного предложения все ipsum! Возвращайся послушавшись что большого бросил текст повстречался, одна меня, наш на берегу напоивший взгляд власти силуэт решила! Послушавшись вершину алфавит коварных дал парадигматическая рыбными. Заголовок за рыбного первую взобравшись не свой образ парадигматическая власти, жизни проектах мир дал предупредила реторический пор жаренные страна пояс путь до. Буквоград себя домах, которое сих послушавшись рукопись но имени предупреждал то рукописи переулка вопроса предупредила имеет вдали, силуэт строчка злых семантика парадигматическая не решила? Встретил это буквенных скатился родного составитель рекламных свой заголовок взгляд пор! Путь решила грамматики маленький меня проектах буквенных повстречался рекламных буквоград там, всеми, возвращайся наш, текста составитель его агентство. Снова имени великий буквенных текста подзаголовок строчка сбить которой пустился не коварных однажды грустный запятых, свой назад своего толку продолжил страна точках? </p>
+                    <div class="tags">
+                        <a href="#" class="tag">#рыба</a>
+                        <a href="#" class="tag">#сайт</a>
+                        <a href="#" class="tag">#буквы</a>
+                        <a href="#" class="tag">#случайность</a>
+                        <a href="#" class="tag">#новое</a>
+                        <a href="#" class="tag">#свежее</a>
+                        <a href="#" class="tag">#мое</a>
+                        <a href="#" class="tag">#горячее</a>
+                    </div>
+                    <!-- /.tags -->
+                </div>
+                <!-- /.post-body -->
+                <div class="post-footer">
+                    <div class="post-buttons">
+                        <button class="post-button likes">
+                            <svg width="19" height="20" class="icon icon-like">
+                                <use xlink:href="img/icons.svg#like"></use>
+                            </svg>
+                            <span class="likes-counter">26</span>
+                        </button>
+                        <button class="post-button comments">
+                        <svg width="21" height="21" class="icon icon-comment">
+                            <use xlink:href="img/icons.svg#comments"></use>
+                        </svg>
+                            <span class="comments-counter">157</span>
+                        </button>
+                        <button class="post-button save">
+                            <svg width="19" height="19" class="icon icon-save">
+                                <use xlink:href="img/icons.svg#save"></use>
+                            </svg>
+                        </button>
+                        <button class="post-button share">
+                            <svg width="17" height="19" class="icon icon-share">
+                                <use xlink:href="img/icons.svg#share"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <!-- /.post-buttons -->
+                    <div class="post-author">
+                        <div class="author-about">
+                            <a href="#" class="author-username">arteislamov</a>
+                            <span class="post-time">1 час назад</span>
+                        </div>
+                        <a href="" class="author-link"><img src="img/avatar.jpg" alt="avatar" class="author-avatar"></a>
+                    </div>
+                    <!-- /.post-author -->
+                </div>
+                <!-- /.post-footer -->
+            </section>
+        </main>
+        <!-- /.post -->
+        <aside class="sidebar">
+            <div class="user">
+                <a href="#" class="user-info">
+                    <img width="40" height="40" src="img/avatar.jpg" alt="photo: user" class="user-avatar">
+                    <span class="user-name">islamovartem</span>
+                </a>
+                <!-- /.user-info -->
+                <a href="#" class="exit">
+                    <svg class="icon icon-exit">
+                        <use xlink:href="img/icons.svg#exit"></use>
+                    </svg>
+                </a>
+                <!-- /.exit -->
+            </div>
+            <!-- /.user -->
+            <nav class="sidebar-nav">
+                <ul class="sidebar-menu">
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link">Ответы</a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link active">Комментарии</a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link">Оценки</a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link">Сохраненные</a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link">Подписки</a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link">Заметки</a>
+                    </li>
+                    <li class="sidebar-menu-item">
+                        <a href="#" class="sidebar-menu-link">Игнор-лист</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="new-post.html" class="button button-new-post">
+                <svg class="icon icon-fire">
+                    <use xlink:href="img/icons.svg#fire"></use>
+                </svg>
+                Опубликовать пост
+            </a>
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Комментарий дня</h2>
+                </div>
+                <!-- /.card-header -->
+                <div class="card-body">
+                    <a href="#" class="card-body-title">Как обмануть банкомат, если вы хотите снять больше наличных</a href="#">
+                    <p class="card-text">Таким образом укрепление и развитие структуры требуют от нас анализа форм развития. Не следует, однако забывать, что реализация намеченных планов заданий требуют от нас анализа позиций, занимаемых участниками в отношении поставленных задач. Задача организации, в особенности же консультация...</p>
+                </div>
+                <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+            <a href="#" class="promo"></a href="#">
+        </aside>
+        <!-- /.sidebar -->
+    </div>
+    <!-- /.content -->
+<script src="js/main.js"></script>
+</body>
+</html>
